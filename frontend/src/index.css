@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom right, #f8fafc, #f1f5f9);
+    color: #0f1724;
+    transition: background-image 150ms ease-in-out, color 150ms ease-in-out;
+  }
+
+  .dark body {
+    background-image: linear-gradient(to bottom right, #0b1220, #0f1724);
+    color: #ffffff;
+  }
+}
