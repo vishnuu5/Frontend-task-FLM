@@ -16,7 +16,7 @@ A modern React-based frontend application that displays and filters company data
 ## Deplyoment
 
 **View demo**
-[VIew Project]()
+[VIew Project](https://frontend-task-7nnbrku0u-vishnus-projects-3ac220e9.vercel.app)
 
 ## Installation
 
